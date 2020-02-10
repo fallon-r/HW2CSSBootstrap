@@ -10,3 +10,13 @@ body {
 label my-textarea {
     background: white;
 }
+
+.container h2 {
+    background: white;
+    shape-outside: round;
+}
+
+footer width: 100%;
+margin: auto;
+
+}

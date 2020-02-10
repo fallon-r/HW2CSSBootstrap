@@ -3,46 +3,50 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="Description" content="Ryan Fallon's Portfolio" <!-- Latest compiled and minified CSS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="Description" content="Ryan Fallon's Portfolio">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-
+    <link rel="stylesheet" type="text/css" href="./Assets/custom.css">
     <title>Ryan Fallon's Portfolio</title>
 </head>
 
 <body>
     <!-- Start Nav -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
-        <span class="navbar-brand mb-1 h1 b-nav">Ryan Fallon</span>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">Fixed navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-            <ul class="nav navbar-nav navbar-right">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
+                    <a class="nav-link" href="#">Link</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link disabled" href="#">Disabled</a>
                 </li>
             </ul>
+            <form class="form-inline mt-2 mt-md-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
         </div>
     </nav>
     <!-- End Nav -->
     <div class="container">
         <div class="row">
             <div class="col-md-8">
-                <div class="page-header">
+                <div class="page-header bg-light">
                     <h1>About Me</h1>
                 </div>
                 <div class="row">
                     <div class="col-md-3">
-                        <img src="Assets/professionalphoto.png" alt="Ryan Fallon Headshot" class="img-thumbnail img-fluid">
+                        <img src="Assets/professionalphoto.png" alt="Ryan Fallon Headshot" class="img-thumbnail img-fluid img-circle mx-auto d-block ">
                     </div>
-                    <div class="col-md-9">
+                    <div class="col-md-9 bg-light rounded">
                         <p>
                             My name is Ryan Fallon. I am currently enrolled in Columbia's Full-Stack Web Development Bootcamp. I enjoy reading, cooking, playing volleyball and spending time outside with my dog.
                         </p>
@@ -60,7 +64,12 @@
     </div>
     </div>
     </div>
-
+    <!-- Footer Time -->
+    <footer class="footer bg-success">
+        <div class="container fixed-bottom bg-success">
+            <span class="text-light bg-success" id="footer-text">Ryan's Fabulous Footer</span>
+        </div>
+    </footer>
 </body>
 
 </html>
