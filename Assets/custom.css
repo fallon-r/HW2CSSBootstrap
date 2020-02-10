@@ -1,10 +1,15 @@
 /* General layout */
 
 body {
+    padding-top: 40px;
     margin: 0;
     background-image: url('./Grass.jpg');
     background-size: 1440px 800px;
     background-repeat: no-repeat;
+}
+
+main {
+    padding-top: 40px;
 }
 
 label my-textarea {
@@ -16,7 +21,7 @@ label my-textarea {
     shape-outside: round;
 }
 
-footer width: 100%;
-margin: auto;
-
+footer {
+    width: 100%;
+    margin: auto;
 }

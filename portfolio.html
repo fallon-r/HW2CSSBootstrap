@@ -13,21 +13,24 @@
 
 <body>
     <!-- Start Nav -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
-        <span class="navbar-brand mb-1 h1 b-nav">Ryan Fallon</span>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- Start Nav -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-success">
+        <a class="navbar-brand" href="/">
+            <h1 class="bg-light text-success">Ryan Fallon</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-            <ul class="nav navbar-nav nav-fill nav-pills justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+        <div class="collapse navbar-collapse " id="navbarCollapse">
+            <ul class="navbar-nav mr-auto justify-content-right">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link disabled" href="contact.html">Contact</a>
                 </li>
             </ul>
         </div>
