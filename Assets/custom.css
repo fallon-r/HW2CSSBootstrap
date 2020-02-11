@@ -30,3 +30,8 @@ footer {
     width: 100%;
     max-width: 75%;
 }
+
+.top-content {
+    padding-top: 40px;
+    margin: 0;
+}
