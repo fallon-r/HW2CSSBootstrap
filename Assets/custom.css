@@ -5,7 +5,7 @@ body {
     margin: 0;
     background-image: url('./Grass.jpg');
     background-size: 1440px 800px;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
 }
 
 main {
