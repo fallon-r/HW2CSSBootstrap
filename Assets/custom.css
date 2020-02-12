@@ -55,6 +55,7 @@ form {
 .card-img {
     width: fill;
     margin: 0;
+    max-width: inherit;
 }
 
 .card-title {
@@ -62,5 +63,4 @@ form {
     background-color: rgba(15, 252, 15, 0.192);
     color: white;
     margin-bottom: 0;
-    max-width: inherit;
 }
