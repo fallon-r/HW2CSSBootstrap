@@ -24,6 +24,7 @@ label my-textarea {
 footer {
     width: 100%;
     margin: auto;
+    text-align: center;
 }
 
 #profile-pic {
@@ -42,11 +43,12 @@ form label {
 }
 
 form {
-    padding 40 40 40 40;
+    padding: 40 40 40 40;
 }
 
 .card {
     width: 100%;
+    max-width: 75%;
     margin-top: 10%;
     margin-bottom: 10%;
     background: transparent;
