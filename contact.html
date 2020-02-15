@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Makes navbar stay in phone  -->
+
     <meta content="minimum-scale=1.0, width=device-width, maximum-scale=1, user-scalable=no" name="viewport" />
     <meta name="Description" content="Ryan Fallon's Portfolio">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./Assets/custom.css">
-    <title>Ryan Fallon's Contact Page</title>
+    <title>Ryan Fallon's Contact</title>
 </head>
 
 <body>
@@ -27,18 +27,49 @@
                         <a class="nav-link" href="index.html">About </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="contact.html">Contact </a>
                     </li>
                 </ul>
 
             </div>
         </nav>
     </header>
-
-
+    <!-- contact box  -->
+    <main>
+        <div class="container">
+            <div class="row">
+                <form role="form" id="contact-form" class="contact-form">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="Name" autocomplete="off" id="Name" placeholder="Name">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="email" class="form-control" name="email" autocomplete="off" id="email" placeholder="E-mail">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <textarea class="form-control textarea" rows="3" name="Message" id="Message" placeholder="Message"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <button type="submit" class="btn main-btn pull-right">Send a message</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
 
 
     <!-- footer time -->

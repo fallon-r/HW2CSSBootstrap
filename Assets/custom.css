@@ -3,7 +3,7 @@
 body {
     margin: 0;
     background-image: url('./Grass.jpg');
-    background-size: auto;
+    background-size: 100%;
     background-repeat: repeat-y;
 }
 
@@ -12,6 +12,9 @@ nav {
     position: fixed;
     overflow: hidden;
 }
+
+
+/* Makes sure body is not eaten by nav */
 
 main {
     padding-top: 65px
@@ -37,11 +40,6 @@ footer {
     max-width: 75%;
 }
 
-.top-content {
-    padding-top: 40px;
-    margin: 0;
-}
-
 form label {
     background-color: white;
     color: darkgreen;
@@ -50,6 +48,9 @@ form label {
 form {
     padding: 40 40 40 40;
 }
+
+
+/* Portfolio card formatting  */
 
 .card {
     width: 100%;
