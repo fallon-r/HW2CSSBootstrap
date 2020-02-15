@@ -3,83 +3,53 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="Description" content="Ryan Fallon's Portfolio" <!-- Latest compiled and minified CSS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="Description" content="Ryan Fallon's Portfolio">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./Assets/custom.css">
-    <title>Ryan Fallon's Portfolio</title>
+    <title>Ryan Fallon's Contact Page</title>
 </head>
 
 <body>
-    <!-- Start Nav -->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-success">
-        <a class="navbar-brand" href="/">
-            <h1 class="bg-light text-success">Ryan Fallon</h1>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse " id="navbarCollapse">
-            <ul class="navbar-nav mr-auto justify-content-right">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <!-- navbar time -->
+    <header>
+        <!-- Fixed navbar -->
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-success">
+            <a class="navbar-brand bg-light text-success" href="#">Ryan Fallon</a>
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbarCollapse" style="">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                </ul>
 
-
-    <!-- End Nav -->
-
-
-    <!-- THis s where my contact me page  content starts  -->
-
-    <div class="container">
-        <div form>
-            <div class="row bg-light text-success top-content">
-                <h2>Contact Me</h2>
             </div>
+        </nav>
+    </header>
+
+
+
+
+    <!-- footer time -->
+    <footer class="footer footer-expand fixed-bottom bg-success">
+        <div class="container  bg-success">
+            <span class="text-light bg-success" id="footer-text">Ryan's Fabulous Footer</span>
         </div>
-        <div class="row">
+    </footer>
 
-            <div class="column">
-                <form action="/action_page.php">
-                    <div class="row">
-                        <label for="fname">Name</label>
-                        <input type="text" id="Name" name="Name" placeholder="Your name...">
-                    </div>
-                    <label for="subject">Subject</label>
-                    <div class="row">
-                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:300px"></textarea>
-                        <input type="submit" value="Submit">
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-
-    <!-- Footer begins -->
-
-    <div id="my-modal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <p>Ryan Fallon's Portfolio</p>
-                </div>
-                <div class="modal-footer">
-
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-
+    <!-- bootstrap js cdns -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 
 </html>

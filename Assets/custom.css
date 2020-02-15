@@ -1,15 +1,20 @@
 /* General layout */
 
 body {
-    padding-top: 40px;
     margin: 0;
     background-image: url('./Grass.jpg');
-    background-size: 1440px 800px;
+    background-size: auto;
     background-repeat: repeat-y;
 }
 
+nav {
+    top: 0;
+    position: fixed;
+    overflow: hidden;
+}
+
 main {
-    padding-top: 40px;
+    padding-top: 65px
 }
 
 label my-textarea {
