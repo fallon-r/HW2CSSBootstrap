@@ -1,7 +1,16 @@
 /* General layout */
 
+html,
 body {
-    margin: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+body {
+    margin: auto;
     background-image: url('./Grass.jpg');
     background-size: 100%;
     background-repeat: repeat-y;
@@ -24,6 +33,7 @@ footer {
     width: 100%;
     margin: auto;
     text-align: center;
+    overflow: hidden;
 }
 
 #profile-pic {
@@ -42,8 +52,7 @@ p {
 /* Portfolio card formatting  */
 
 .card {
-    width: 100%;
-    max-width: 75%;
+    max-width: inherit;
     margin-top: 10%;
     margin-bottom: 10%;
     background: transparent;
