@@ -30,15 +30,6 @@ footer {
     padding: 25px 25px 25px 25px;
 }
 
-form label {
-    background-color: white;
-    color: darkgreen;
-}
-
-form {
-    padding: 40 40 40 40;
-}
-
 #aboutme {
     margin-bottom: 25px;
 }
@@ -69,4 +60,10 @@ p {
     background-color: rgba(15, 252, 15, 0.192);
     color: white;
     margin-bottom: 0;
+}
+
+#contactFormat {
+    padding-left: 50px;
+    padding-right: 50px;
+    width: fill;
 }
