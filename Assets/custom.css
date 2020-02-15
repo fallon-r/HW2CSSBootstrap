@@ -20,15 +20,6 @@ main {
     padding-top: 65px
 }
 
-label my-textarea {
-    background: white;
-}
-
-.container h2 {
-    background: white;
-    shape-outside: round;
-}
-
 footer {
     width: 100%;
     margin: auto;
@@ -36,8 +27,7 @@ footer {
 }
 
 #profile-pic {
-    width: 100%;
-    max-width: 75%;
+    padding: 25px 25px 25px 25px;
 }
 
 form label {
@@ -47,6 +37,14 @@ form label {
 
 form {
     padding: 40 40 40 40;
+}
+
+#aboutme {
+    margin-bottom: 25px;
+}
+
+p {
+    padding: 15px 25px 15px 25px;
 }
 
 
