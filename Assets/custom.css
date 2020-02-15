@@ -52,7 +52,7 @@ p {
 /* Portfolio card formatting  */
 
 .card {
-    max-width: inherit;
+    max-width: fit-content;
     margin-top: 10%;
     margin-bottom: 10%;
     background: transparent;
