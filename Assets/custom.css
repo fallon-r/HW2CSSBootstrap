@@ -71,3 +71,8 @@ form {
     color: white;
     margin-bottom: 0;
 }
+
+#navbarCollapse {
+    position: fixed;
+    float: in;
+}
