@@ -13,7 +13,7 @@ body {
     margin: auto;
     background-image: url('./Grass.jpg');
     background-size: 100%;
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
 }
 
 nav {
